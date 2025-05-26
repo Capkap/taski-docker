@@ -45,5 +45,3 @@ services:
     # А тут подключаем volume со статикой к gateway
     volumes:
       - static:/staticfiles/
-    depends_on:
-      - backend
